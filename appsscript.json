@@ -1,0 +1,15 @@
+{
+  "timeZone": "Europe/London",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "bmSimpleCrypto",
+        "version": "1",
+        "libraryId": "1-QSJlFRNb-6MhZe4zra6tbTTriX_IHbZ7X3nNoFfKtlkA3DrbY-Z-S4i",
+        "developmentMode": false
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
