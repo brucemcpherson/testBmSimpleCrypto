@@ -1,6 +1,12 @@
 {
   "timeZone": "Europe/London",
   "dependencies": {
+    "libraries": [{
+      "userSymbol": "xbmSimpleCrypto",
+      "libraryId": "18h1kkfZZJPbJUz9djH6RcpBUgUIG6UKeqO2g_rUPAiOVswMP6vsjlqaN",
+      "version": "1",
+      "developmentMode": true
+    }]
   },
   "exceptionLogging": "STACKDRIVER",
   "runtimeVersion": "V8"
