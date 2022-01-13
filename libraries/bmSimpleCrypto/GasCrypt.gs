@@ -33,6 +33,7 @@ var GasCrypt = ((sc) => {
   }
 
 })(SC);
+
 // https://cdn.jsdelivr.net/npm/simple-crypto-js@2.5.0/dist/SimpleCrypto.min.js
 // https://simplecrypto.js.org/
 /**
