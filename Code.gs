@@ -1,10 +1,12 @@
 function myFunction() {
   const gc = bmSimpleCrypto.GasCrypt;
-
   console.log(gc.getVersion())
+
   // use a given passphrase and some text
   let secret = 'my secret passphrase';
   let sc = gc.newCrypto(secret);
+
+
   let original = 'some text'
   let crypted = sc.encrypt(original);
   let decrypted =  sc.decrypt(crypted);
@@ -21,20 +23,14 @@ function myFunction() {
   check (original, decrypted)
   console.log(`${crypted}\n${decrypted}\n${secret}`);
 
-  // use a random secret and crypt a number
-  secret = gc.randomString()
-  // we can make a new instance, or reset the secret on an existing instance
-  sc.setSecret(secret)
+  // crypting a number
   original = Math.PI
   crypted = sc.encrypt(original);
   decrypted =  sc.decrypt(crypted);
   check (original, decrypted)
   console.log(`${crypted}\n${JSON.stringify(decrypted)}\n${secret}`);
 
-  // use a random secret and crypt an object
-  secret = gc.randomString()
-  // we can make a new instance, or reset the secret on an existing instance
-  sc.setSecret(secret)
+  // crypting an object
   original = {text: 'an object to crypt', a:[1,2,3], b: true, c: { a: 'something'}}
   crypted = sc.encrypt(original);
   decrypted =  sc.decrypt(crypted);
