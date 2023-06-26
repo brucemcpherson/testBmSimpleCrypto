@@ -1,5 +1,5 @@
 # Google Apps Script Project: testBmSimpleCrypto
-This repo (testBmSimpleCrypto) was automatically updated on 1/13/2022, 11:41:04 AM by GasGit
+This repo (testBmSimpleCrypto) was automatically updated on 6/26/2023, 11:29:10 AM by GasGit
 
 For more information on gasgit, see the [desktop liberation site](https://ramblings.mcpher.com/drive-sdk-and-github/migrategasgit/ "desktop liberation")
 
@@ -25,7 +25,8 @@ bmSimpleCrypto| bmSimpleCrypto|1-QSJlFRNb-6MhZe4zra6tbTTriX_IHbZ7X3nNoFfKtlkA3Dr
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
 bmSimpleCrypto| bmSimpleCrypto|1-QSJlFRNb-6MhZe4zra6tbTTriX_IHbZ7X3nNoFfKtlkA3DrbY-Z-S4i|1|no|[here](libraries/bmSimpleCrypto "library source")
-xbmSimpleCrypto| xbmSimpleCrypto|18h1kkfZZJPbJUz9djH6RcpBUgUIG6UKeqO2g_rUPAiOVswMP6vsjlqaN|1|no|no
+bmLibraryReporter| bmLibraryReporter|1D_lWK-jU53wxMA2-NxSjiyu7Uze_GDDqBKTsQnCgPhyUmmSLv0bfTNPX|14|no|[here](libraries/bmLibraryReporter "library source")
+bmLibraryTracking| bmLibraryTracking|1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P|7|no|[here](libraries/bmLibraryTracking "library source")
 ### Enabled Google Services
 no libraries discovered
 ### Scopes required
